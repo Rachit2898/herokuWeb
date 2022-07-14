@@ -1,0 +1,221 @@
+.block-chain-icon {
+  position: relative;
+  height: 100%;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeCutmpk90Y9UoHTOTT0zv8RmOxzAUV0pl1A&usqp=CAU")
+    center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.loginScreen__logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
+  cursor: pointer;
+  background-attachment: fixed;
+}
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: black;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.loginScreen__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+}
+.signUpScreen__body {
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  left: 0;
+  right: 0;
+}
+.loginScreen__body > h1 {
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+.loginScreen__body > h2 {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+.loginScreen__body > h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.loginScreen__input > form > input {
+  padding: 10px;
+  outline-width: 0;
+  height: 30px;
+  width: 30%;
+  border: none;
+  max-width: 600px;
+}
+.loginScreen__getStarted {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: blueviolet;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.loginScreen__input {
+  margin: 20px;
+}
+
+.signUpScreen__signUpLink:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.signUpScreen {
+  max-width: 300px;
+  padding: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.85);
+}
+.signUpScreen > form {
+  display: grid;
+  flex-direction: column;
+}
+
+.signUpScreen > form > input {
+  outline-width: 0;
+  height: 40px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+}
+.signUpScreen > form > button {
+  padding: 16px;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  background-color: blueviolet;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.LogIn__body {
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  left: 0;
+  right: 0;
+}
+
+.connect_button {
+  padding: 16px;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  background-color: blueviolet;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.avtar__logo {
+  position: fixed;
+  right: 25px;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  top: 15px;
+  border-radius: 50%;
+}
+.user_name {
+  position: fixed;
+  right: 120px;
+  top: 15px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: blueviolet;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profileImgScreen_info>img{
+  height:200px;
+  border-radius:50%;
+  width: 200px;
+ 
+
+   
+}
+.coinList{
+  top: 1000px;
+}
+
+
+.WalletScreen {
+  max-width: 300px;
+  padding: 70px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.85);
+}
+.WalletScreen > form {
+  display: grid;
+  flex-direction: column;
+}
+
+.WalletScreen > form > input {
+  outline-width: 0;
+  height: 100px;
+  width: 400px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+}
+.WalletScreenn > form > button {
+  padding: 16px;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  background-color: blueviolet;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+

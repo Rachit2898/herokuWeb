@@ -1,0 +1,431 @@
+.address-chain-icon {
+  height: 100%;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeCutmpk90Y9UoHTOTT0zv8RmOxzAUV0pl1A&usqp=CAU")
+    center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.addressScreen__logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
+}
+.addressScreen__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+}
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: blueviolet;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.post_button {
+  position: fixed;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  width: 100px;
+  background-color: rgb(32, 95, 220);
+  font-weight: 600;
+  border: none;
+  height: 40px;
+  border-radius: 14px;
+  margin-bottom: 45px;
+  margin-right: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.cancel_button {
+  position: fixed;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  width: 100px;
+  background-color: rgb(32, 95, 220);
+  font-weight: 600;
+  border: none;
+  height: 40px;
+  border-radius: 14px;
+  margin-bottom: 45px;
+  margin-right: 155px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/*.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: blueviolet;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.loginScreen__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+}
+.loginScreen__body {
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  left: 0;
+  right: 0;
+}
+
+ */
+
+.addressCard_1 {
+  margin: auto;
+  position: fixed;
+  margin-top: 115px;
+  height: 700px;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.4) 100%
+  ) !important;
+  background-size: cover;
+  background: rgba(0, 0, 0, 0.4) !important;
+
+  width: 400px;
+  left: 0;
+}
+.postCard {
+  margin: auto;
+  margin-top: 30px;
+}
+.addressCard_3 {
+  margin-top: 120px;
+  height: 700px;
+  width: 400px;
+  position: fixed;
+  right: 0;
+}
+
+.userPost {
+  display: flex;
+  margin-left: 300px;
+  flex-direction: row;
+  margin-left: 1px;
+}
+
+.btn-post {
+  width: 600px;
+  height: 60px;
+  border-radius: 50px;
+  border: 1px solid rgb(142, 139, 139);
+  background-color: rgb(224, 221, 221);
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.btn-post > p {
+  color: rgb(101, 94, 94);
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+.Card_2Area {
+  width: 850px;
+  height: 100px;
+  padding: auto;
+  display: flex;
+  flex-direction: row;
+}
+.avtar_logo {
+  margin-top: 15px;
+  margin-left: 40px;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.middleCard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 480px;
+}
+.postCard_2 {
+  margin-top: 15px;
+  height: 100%;
+  
+}
+.headingCoin {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+
+}
+.headingCoin > h3 {
+  font-size: 2rem;
+  color: rgb(1, 3, 4);
+  color: #fff;
+}
+.post {
+  width: 780px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  background: rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+}
+
+.postText {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+  font-size: 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  padding: 5px;
+}
+.postContent {
+  width: 90%;
+  padding: auto;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.postUser {
+  display: flex;
+  flex-direction: row;
+}
+.userName {
+  margin-left: 20px;
+}
+.userName > p {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.postTime {
+  text-align: center;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.postTime > p {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.postLikeComment {
+  display: flex;
+  flex-direction: row;
+  margin-top: -2%;
+}
+.likeButton {
+  color: white;
+  margin-top: 5%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.commentButton {
+  display: flex;
+  color: white;
+  margin-top: 5%;
+  width: 25%;
+  margin-left: auto;
+  cursor: pointer;
+}
+.commentLength {
+  display: flex;
+  margin-top: 0%;
+  margin-right: 2%;
+}
+.cards {
+  display: flex;
+}
+
+.DialogContent {
+  width: 500px;
+  height: 370px;
+}
+.form-control {
+  width: 100%;
+  height: 350px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.likesLength {
+  margin-top: 1px;
+  margin-left: 15px;
+}
+
+.commentSection {
+  height: 100%;
+  
+  margin-top: 5% !important;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column !important;
+}
+.commentText {
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+  display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.commentTextArea {
+  width: 600px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  padding-left: 3%;
+  resize: none;
+}
+.commentPostButton {
+  margin-left: 15px;
+  font-size: 1rem;
+  color: white;
+  width: 100px;
+  background-color: rgb(32, 95, 220);
+  font-weight: 600;
+  border: none;
+  height: 40px;
+  border-radius: 14px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.readCommnetSection {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: auto;
+  background-color: #f8f8f8;
+  margin-right: auto;
+  border: none;
+  border-radius: 15px;
+  margin-top: -7%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+.commnetUserName {
+  display: flex;
+  flex-direction: row;
+}
+.userNameComment {
+  display: flex;
+
+  flex-direction: column;
+  margin-left: 10%;
+}
+.userNameComment > p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.commnetTime {
+  display: flex;
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+.commnetTime > p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.commentsVisible {
+  display: flex;
+  margin: auto;
+}
+
+.userAddress {
+  display: flex;
+  flex-direction: column;
+}
+
+.userAddressHeading {
+  border-radius: 5px;
+  width: 90%;
+  display: flex;
+  background-color: rgb(138, 44, 226,1);
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+.userAddress {
+  margin-left: auto;
+  margin-right: 5%;
+}
+.userAddress > p {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+}
+.userNAME {
+  margin-left: 5%;
+}
+.userNAME > p {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+}
